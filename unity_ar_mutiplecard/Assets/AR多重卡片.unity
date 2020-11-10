@@ -460,6 +460,10 @@ MonoBehaviour:
   Joystick: {fileID: 280448845}
   turn: 1.5
   bigsmall: 0.33
+  aniRabbit: {fileID: 1949254398}
+  aniBat: {fileID: 1299980548}
+  test: 8.15
+  test2: 1
 --- !u!4 &331511748
 Transform:
   m_ObjectHideFlags: 0
@@ -951,6 +955,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276382609}
   m_CullTransparentMesh: 0
+--- !u!95 &1299980548 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 59afa1f2c595d6343b15e945602e1f8f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1160078210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1343845467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1042,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1343845470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 331511747}
+        m_MethodName: MOVE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1343845470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1151,7 +1172,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1474822296}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 331511747}
+        m_MethodName: Attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1474822296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1385,7 +1417,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540454289}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -1512,7 +1544,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622871134}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -1633,7 +1665,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1677037848}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 331511747}
+        m_MethodName: DIE
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1677037848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2035,6 +2078,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913239694}
   m_CullTransparentMesh: 0
+--- !u!95 &1949254398 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 05b0336cad2ece64b99ce054ed619f4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1524049497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032997628
 GameObject:
   m_ObjectHideFlags: 0
